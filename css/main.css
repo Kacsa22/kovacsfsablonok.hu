@@ -156,10 +156,68 @@ body{
     top:60px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
 }
 
+.elercontent{
+    position: absolute;
+    top:60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.refcontent{
+    position: absolute;
+    top:60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+table{
+    border: 2px solid var(--color0);
+    width:100%;
+    border-collapse: collapse;
+}
+
+.elsosor{
+    background-color: var(--color2);
+    font-size: 1.6rem;
+}
+
+tr,th,td{
+    border: 2px solid var(--color0);
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: var(--color3);
+}
+
+td{
+    width:65%;
+}
+
+
+.elerhetoseg{
+    font-size: 1.5rem;
+}
+
+.csoport{
+    width: 100%;
+    margin-top: 35px;
+}
 
 h4{
     margin-bottom: 5px;
@@ -168,6 +226,11 @@ h4{
     font-size: 1.7rem;
     color:var(--color0);
     padding-bottom: 2px;
+    margin-bottom: 15px;
+}
+
+.terkep{
+    margin-top:30px;
 }
 
 .headerImg{
