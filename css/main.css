@@ -92,6 +92,44 @@ body{
     cursor: pointer;
 }
 
+
+.nagyKep{
+    position: absolute;
+    top:0px;
+    align-self: center;
+    border: 8px solid var(--color2);
+    border-radius: 8px;
+}
+
+.bezar{
+    position: fixed;
+    top:65px;
+    right: 5px;
+}
+
+#ferde1{
+    position: relative;
+    top:4px;
+    left: -16px;
+    transform: rotate(-45deg);
+    width: 13px;
+    border-radius: 0px;
+}
+#ferde2{
+    position: relative;
+    transform: rotate(45deg);
+    top:-4px;
+    left: -16px;
+    width: 13px;
+    border-radius: 0px;
+}
+#viz{
+    position: relative;
+    width: 35px;
+    left:-5px;
+    border-radius: 0px;
+}
+
 .menuButton:hover > .line{
     border: 3px solid var(--color1);
 }
@@ -140,6 +178,12 @@ body{
     color:var(--color1);
 }
 
+.tulajdonsagok > ul{
+    margin-left: 20px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
 .indexcontent{
     display: flex;
     flex-direction: column;
@@ -151,6 +195,18 @@ body{
     text-align: justify;
 }
 
+.indexcontent > a{
+    text-decoration: none;
+    color: var(--color0);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.indexcontent > a:hover{
+    color: var(--color2);
+
+}
+
 .termekcontent{
     position: absolute;
     top:60px;
@@ -159,6 +215,11 @@ body{
     margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.arvaltozas{
+    width: 100%;
+    margin-top: 20px;
 }
 
 .elercontent{
@@ -183,6 +244,39 @@ body{
     flex-direction: column;
     text-align: left;
     margin-bottom: 50px;
+}
+
+.productContent{
+    position: absolute;
+    top:60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    width:80%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.leirasKep{
+    display: flex;
+    width:100%;
+}
+
+.leiras{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.image{
+    display: block;
+    width: 50%;
+}
+
+.mainImage{
+    margin: 0px;
 }
 
 table{
@@ -230,7 +324,7 @@ h4{
 }
 
 .terkep{
-    margin-top:30px;
+    margin-top:10px;
 }
 
 .headerImg{

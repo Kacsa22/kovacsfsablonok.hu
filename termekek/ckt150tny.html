@@ -14,6 +14,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/termek.css">
     <link href='https://fonts.googleapis.com/css?family=IBM Plex Mono' rel='stylesheet'>
 
     <script>
@@ -37,34 +38,45 @@
         </div>
         <div class="buttons">
             <ul>
-                <li><a href="../index.html">Bemutatkozás</a></li>
-                <li><a href="../page/termekek.html">Termékek</a></li>
-                <li><a href="../page/galeria.html" id="active">Galéria</a></li>
-                <li><a href="../page/referenciak.html">Referenciák</a></li>
-                <li><a href="../page/elerhetoseg.html">Elérhetőségek</a></li>
+                <li><a href="../page/termekek.html">Vissza a termékekhez</a></li>
             </ul>
         </div>
-        <div class="menuButton">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
+        <div class="menuButton" id="backButton" onclick="back()">
+            <span class="line" id="ferde1"></span>
+            <span class="line" id="viz"></span>
+            <span class="line" id="ferde2"></span>
         </div>
     </div>
-    <div class="menu">
-        <ul>
-            <li><a href="../index.html">Bemutatkozás</a></li>
-            <li><a href="../page/termekek.html">Termékek</a></li>
-            <li><a href="../page/galeria.html">Galéria</a></li>
-            <li><a href="../page/referenciak.html">Referenciák</a></li>
-            <li><a href="../page/elerhetoseg.html">Elérhetőségek</a></li>
-        </ul>
-    </div>
-    <div class="content">
+    <div class="productContent">
+        <h4> CKt sablon, h 150 mm, d 150 mm, talpas, szétnyitható </h4>
+        <div class="leirasKep">
+            <div class="image">
+                <img class="mainImage" src="../img/ckt150nyt.jpg" width="100%">
+                <img class="image1" src="../img/ckt150nyt.jpg" width="23%">
+            </div>
+            <div class="leiras">
+                <div class="tulajdonsag">Tulajdonságok:</div>
+                <div class="tulajdonsagok">
+                    Szétnyitható<br>
+                    Talpas<br>
+                    Kiöntött próbatest méretei: 
+                    <ul>
+                        <li>Átmérő: 150 mm </li>
+                        <li>Magasság: 150 mm</li> 
+                    </ul>
+                </div>
+                <div class="nettoAr">Nettó ár: 28 000 Ft</div>
+                <div class="bruttoAr">(bruttó 35 560 Ft)</div>
+            </div>
+        </div>
+        <div class="reszletes">
 
+        </div>
     </div>
     <div class="footer">
 
     </div>
     <script src="../js/script.js"></script>
+    <script src="../js/image.js"></script>
 </body>
 </html>

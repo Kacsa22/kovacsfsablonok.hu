@@ -14,11 +14,14 @@ menuButton.addEventListener('click', function(){
     }
 });
 
+
 window.addEventListener('resize', resize);
 
 function close(){
-    menu.style.display = "none";
-    show = false;
+    if(show){
+        menu.style.display = "none";
+        show = false;
+    }
 }
 
 function open(){
@@ -40,4 +43,8 @@ function resize(){
     if ((width < 1290) && show){
         open();
     }
+}
+
+function back(){
+    window.location.replace("../page/termekek.html");
 }
